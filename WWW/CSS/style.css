@@ -1,0 +1,105 @@
+/* Layout */
+
+#header {
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgba(128,128,128, 0.1);
+    background-image: url("Pics/header.png");
+    background-size: 800px 150px;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 375px;
+    font-style:italic;
+    font-size:20px;
+    
+    
+}
+
+#navigation {
+    border: 1px solid black;
+    width: 200px;
+    float: left;
+    background-color: rgba(0,0,0, 0.0);
+}
+
+#content {
+    background-color: rgba(128,128,128, 0.1);
+    margin-left: 50px;
+    width: 50%;
+    float: left;
+    font-family:Montype Corsiva;
+    font-style:italic; 
+    font-size: 1.0em;
+    
+    
+
+}
+
+.gubbe {
+    
+    float:right;
+    margin-left: 13px;
+    margin-bottom: 11px;
+    margin-top: 13px;
+}
+
+#container {
+    background: rgba(128,128,128, 0.1);
+    overflow: auto;
+    max-width: 960px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+/*Meny*/
+
+#ulsidemenu1 {
+    padding: 0;
+    margin: 0;  
+    list-style: none;
+    font-family: "Verdana, Arial, Helvetica, sans-serif";
+    font-size: 1.0em;
+    border-bottom: 1px solid #BCA6B4;
+    width: 110px;
+    background-color: rgba(0,0,0, 0.0);
+}
+
+#ulsidemenu2 {
+    
+    border-bottom: 1px solid black;
+    
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    width: 88px;
+    color: black;
+    font-weight: bold;
+    padding: 2px 10px;
+}
+
+a:hover {
+    background-color: #4F444B;
+    color: #FDE3F3;
+}
+
+.active {
+    text-decoration:underline;
+}
+
+/*Bakgrund*/
+
+#html { 
+  background: url(Pics/floral_wallpaper.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+/* Typografi */
